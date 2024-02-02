@@ -71,3 +71,9 @@ button:hover {
     font-size: 24px;
     margin-bottom: 40px;
 }
+/* Thêm media query cho các màn hình nhỏ */
+@media only screen and (max-width: 600px) {
+    .clock-container {
+        font-size: 18px;
+    }
+}
