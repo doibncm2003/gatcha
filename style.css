@@ -1,0 +1,73 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.gacha-container {
+    display: flex;
+}
+
+.gacha {
+    width: 80px;
+    height: 80px;
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #ccc;
+    border-radius: 10px;
+    transition: transform 0.5s ease-in-out, background-color 0.3s ease-in-out;
+    border: black 2px solid;
+}
+
+
+.result-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.result {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #ccc;
+    border-radius: 10px;
+    transition: background-color 0.3s ease-in-out, transform 0.5s ease-in-out;
+    width: auto;
+    height: 30px;
+    padding: 10px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+.content{
+    margin-bottom: 50px;
+}
+.clock-container {
+    font-size: 24px;
+    margin-bottom: 40px;
+}

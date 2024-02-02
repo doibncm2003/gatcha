@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Gacha</title>
+</head>
+<body>
+    <h1 class="content"> Chương trình quay Gatcha</h1>
+    <div class="clock-container">
+        <div id="live-clock"></div>
+    </div>
+    <div class="gacha-container">
+        <div class="gacha" id="gacha1">0</div>
+        <div class="gacha" id="gacha2">0</div>
+        <div class="gacha" id="gacha3">0</div>
+        <div class="gacha" id="gacha4">0</div>
+        <div class="gacha" id="gacha5">0</div>
+    </div>
+    <div class="result-container">
+        <h2>Kết quả:</p>
+        <div class="result" id="result">0</div>
+    </div>
+    <button onclick="rollGacha()">Roll Gacha</button>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.0/gsap.min.js"></script>
+    <script src="https://cdn.skypack.dev/date-fns@2.24.0"></script>
+    <script src="script.js"></script>
+</body>
+</html>
